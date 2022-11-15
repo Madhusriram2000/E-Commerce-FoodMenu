@@ -1,0 +1,29 @@
+h1{font-family: cursive;
+    text-align: center;
+}
+.foodmenu{
+    background-color:lightblue; width:100vw;height:100vh;
+    display: flex;justify-content: center;
+}
+.navbar li{
+    display: inline;
+    text-decoration: none; padding: 5px;
+    color: whitesmoke;
+}
+li a{text-decoration: none; padding: 5px;
+    color: whitesmoke;font-size:25px;
+}
+.navbar ul{
+    color:whitesmoke;
+    position: absolute;
+}
+/* .veg ul{
+    display:none;
+    position: absolute; 
+} */
+.veg ul:hover li{
+    display:block;
+}
+.veg,.veg ul{
+    margin:0; padding:0; list-style-type:none;
+}

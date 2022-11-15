@@ -1,0 +1,36 @@
+.box{ 
+    text-align: center;
+    /* position: relative;
+    margin-top: 50px;
+    margin-left: 350px; */
+    
+    background-image:url(backgroundimg.webp);
+    background-position: center;
+    background-size: cover;
+    width: 300px; height: 350px;
+    border: 2px solid lightblue;
+    color:darkred;
+   
+}
+/* #btn{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} */
+h1:hover{
+    color: blueviolet;
+}
+#btn1:hover{
+    background-color: blue;
+} 
+#btn2:hover{
+    background-color:red;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+
+}
